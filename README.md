@@ -9,8 +9,9 @@ generating summary reports.
 ```bash
 dotnet build
 dotnet run --project LyricHealthExercise.Api
-API will be available at http://localhost:5000/claims/validate
 ```
+API will be available at http://localhost:5000/claims/validate
+
 ### How to Test
 ```bash
 dotnet test
