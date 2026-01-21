@@ -1,0 +1,37 @@
+@LyricHealthExercise_HostAddress = http://localhost:5000
+
+POST {{LyricHealthExercise_HostAddress}}/claims/validate/
+Accept: application/json
+Content-Type: application/json
+
+[]
+
+###
+
+POST {{LyricHealthExercise_HostAddress}}/claims/validate
+Content-Type: application/json
+Accept: application/json
+
+[
+  {
+    "id": 1,
+    "provider": "ProviderA",
+    "amount": 100,
+    "diagnosisCode": "A01",
+    "status": "Approved"
+  },
+  {
+    "id": 2,
+    "provider": "ProviderB",
+    "amount": -50,
+    "diagnosisCode": "B12",
+    "status": "Approved"
+  },
+  {
+    "id": 3,
+    "provider": "ProviderC",
+    "amount": 75,
+    "diagnosisCode": "123",
+    "status": "Approved"
+  }
+]

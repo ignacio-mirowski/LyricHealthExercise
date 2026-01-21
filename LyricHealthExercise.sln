@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LyricHealthExercise.Api", "LyricHealthExercise.Api\LyricHealthExercise.Api.csproj", "{447BFCF9-0C3C-4385-88CF-E13B198E8A34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LyricHealthExercise.Business", "LyricHealthExercise.Business\LyricHealthExercise.Business.csproj", "{A9068A6C-7658-407A-B991-6B26419E6C07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LyricHealthExercise.Tests", "LyricHealthExercise.Tests\LyricHealthExercise.Tests.csproj", "{B04FC2AB-7D23-4630-8405-B4781CB819B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{447BFCF9-0C3C-4385-88CF-E13B198E8A34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447BFCF9-0C3C-4385-88CF-E13B198E8A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447BFCF9-0C3C-4385-88CF-E13B198E8A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447BFCF9-0C3C-4385-88CF-E13B198E8A34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9068A6C-7658-407A-B991-6B26419E6C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9068A6C-7658-407A-B991-6B26419E6C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9068A6C-7658-407A-B991-6B26419E6C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9068A6C-7658-407A-B991-6B26419E6C07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B04FC2AB-7D23-4630-8405-B4781CB819B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B04FC2AB-7D23-4630-8405-B4781CB819B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B04FC2AB-7D23-4630-8405-B4781CB819B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B04FC2AB-7D23-4630-8405-B4781CB819B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
